@@ -8,7 +8,7 @@ public class BemVindo {
         Scanner entrada = new Scanner(System.in); 
         
         System.out.print("Digite seu nome: "); 
-        nome = entrada.nextLine(); // capturar o que o usuário digitar
+        nome = entrada.nextLine();
 
         System.out.print("Digite sua idade: ");
         idade = entrada.nextInt();
@@ -18,6 +18,6 @@ public class BemVindo {
 
         System.out.println("Olá, " + nome + "! Sua idade é " + idade + " e sua altura é " + altura + ".");
         
-        entrada.close(); // boa prática: fechar o Scanner
+        entrada.close(); 
     }
 }
