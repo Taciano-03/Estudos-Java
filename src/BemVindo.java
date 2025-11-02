@@ -8,7 +8,12 @@ public class BemVindo {
         Scanner entrada = new Scanner(System.in); 
         
         System.out.print("Digite seu nome: "); 
+<<<<<<< HEAD
         nome = entrada.nextLine(); 
+=======
+        nome = entrada.nextLine();
+
+>>>>>>> 3cf00a3972bd3284b5fdc554b471291d126038cc
         System.out.print("Digite sua idade: ");
         idade = entrada.nextInt();
         
